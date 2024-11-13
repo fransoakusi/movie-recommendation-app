@@ -1,0 +1,26 @@
+/* Main container for the movie list */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  justify-content: center;
+}
+
+/* Styling for the loading text */
+.loading-text {
+  font-size: 1.5rem;
+  color: #ffdd57;
+  text-align: center;
+  margin-top: 10px; /* Reduced space above loading text */
+}
+
+/* Optional: Add a container style for individual MovieCard components */
+.movie-list .movie-card {
+  margin-bottom: 10px; /* Reduced space between movie cards */
+  transition: transform 0.2s ease;
+}
+
+.movie-list .movie-card:hover {
+  transform: scale(1.05);
+}

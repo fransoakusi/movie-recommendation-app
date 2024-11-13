@@ -1,0 +1,18 @@
+/* Styling for the footer */
+.show {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  
+  /* Optional: Styling for the footer text */
+  .show p {
+    margin: 0;
+    font-weight: lighter;
+  }
+  

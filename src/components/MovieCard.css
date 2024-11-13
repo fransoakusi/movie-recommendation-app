@@ -1,0 +1,37 @@
+/* Main Card container styling */
+.card {
+  width: 200px;
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Movie image styling */
+.movie-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Movie title styling */
+.movie-title {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #ffdd57;
+}
+
+/* Additional movie information styling */
+.movie-info {
+  font-size: 14px;
+  color: #bbb;
+  margin: 5px 0;
+}

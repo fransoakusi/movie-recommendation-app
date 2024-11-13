@@ -1,0 +1,55 @@
+/* Main styling for the movie detail page */
+.movie-detail {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the movie title */
+.movie-detail__title {
+  font-size: 2rem;
+  color: #ffdd57;
+  margin-bottom: 10px;
+}
+
+/* Styling for the movie overview */
+.movie-detail__overview {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Subtitle styling (e.g., for Cast and Recommendations) */
+.movie-detail__subtitle {
+  font-size: 1.5rem;
+  color: #ffdd57;
+  margin-bottom: 10px;
+}
+
+/* Styling for the cast list */
+.movie-detail__cast {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-detail__cast-item {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 5px;
+}
+
+/* Styling for the recommendations section */
+.movie-detail__recommendations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.movie-detail__recommendations .movie-card {
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.movie-detail__recommendations .movie-card:hover {
+  transform: scale(1.05);
+}
